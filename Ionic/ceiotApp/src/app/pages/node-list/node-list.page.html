@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+      </ion-buttons>
+    <ion-title>NodeList</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let node of nodeList">
+      <div>
+          <p>{{node.name}}</p>
+          <a>{{node.description}}</a>
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>

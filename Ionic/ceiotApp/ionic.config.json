@@ -1,0 +1,7 @@
+{
+  "name": "ceiotApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
