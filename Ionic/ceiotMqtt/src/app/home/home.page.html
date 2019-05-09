@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Exemplo MQTT
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    Lista de mensagens
+
+    <!-- <ion-item *ngFor="let item of messageList">
+      <div>
+          <p>{{item.topic}}</p>
+          <a>{{item.message}}</a>
+      </div>
+    </ion-item> -->
+    <ion-grid>      
+        <ion-row>
+          <ion-col><div>Tópico</div></ion-col>
+          <ion-col><div>Mensagem</div></ion-col>
+        </ion-row>
+        <ion-row *ngFor="let item of messageList">          
+            <ion-col>{{item.topic}}</ion-col>
+            <ion-col>{{item.message}}</ion-col>          
+        </ion-row>
+      </ion-grid>
+  </div>
+</ion-content>

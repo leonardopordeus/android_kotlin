@@ -1,4 +1,4 @@
-https://ionicframework.com/getting-started#cli
+﻿https://ionicframework.com/getting-started#cli
 
 #Primeiro instalar o Nodejs.
 
@@ -29,3 +29,15 @@ ionic generate
 #  p. ex:
   
 #ionic generate page pages/NodeList
+
+
+curl -X POST -d '{"user_id" : "jack", "text" : "Ahoy!"}' \  'https://monitoramento-container.firebaseapp.com/container.json'
+
+curl -X POST -d '{"name": "aaa"}' https://firestore.googleapis.com/v1beta1/ceiot-android/nodes
+
+curl -X POST -d '{"name": "aaa"}' https://firestore.googleapis.com/v1beta1/monitoramento-container/container
+
+
+POST https://firestore.googleapis.com/v1beta1/ceiot-android/nodes?key={YOUR_API_KEY}
+ {"name": "aaa"}
+ 

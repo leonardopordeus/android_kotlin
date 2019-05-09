@@ -23,7 +23,7 @@ import java.util.concurrent.Executor
 import java.util.concurrent.Executors
 
 /**
- * TODO(5) "Gerenciador de Thread"
+ * TODO(4) "Gerenciador de Thread"
  * Global executor pools for the whole application.
  *
  *
